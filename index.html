@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website - Home</title>
+
+<style>
+body {
+    color:white;
+    margin: 0;
+    text-align: center;
+    background-image: url("sky.jpg");
+    background-size: cover;      /* Makes the image cover the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;/* Prevents repeating */
+    background-attachment: fixed;/* Optional: makes it fixed when scrolling */
+}
+img {
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+nav {
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 40px;
+}
+
+img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(8, 11, 174, 0.754);
+}
+
+.card {
+    color:white;
+    background: rgba(19, 19, 19, 0.552);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+<style>
+.glow-text {
+  font-size: 30px;
+  color: black;
+  transition: 0.3s;
+}
+
+.glow-text:hover {
+  color: rgba(218, 237, 9, 0.889);
+  text-shadow: 0 0 10px rgba(23, 23, 112, 0.491),
+               0 0 20px rgba(8, 8, 97, 0.256),
+               0 0 30px rgba(6, 6, 56, 0.535);
+}
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+}
+</style>
+
+
+
+</head>
+
+<body>
+    
+
+<nav>
+    <h3 class="glow-text">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    </h3>
+</nav>
+
+<div class="container">
+
+    <h1 class="glow-text">Welcome to My Website</h1>
+    <div class="card">
+        <h3 class="glow-text">
+        <p>
+           Hi! My name is Reniel R. Escabas
+        </p>
+        </h3>
+    </div>
+
+    <img src="myprofile.jpg" alt="My Picture">
+
+    <div class="card">
+        <h3 class="glow-text">
+        <p>
+            This is my homepage where you can learn more about me, 
+            my hobbies, and how to contact me. This website is created 
+            as part of my activity in Web Development.
+        </p>
+        </h3>
+    </div>
+
+    <h1 class="glow-text">Audio Explanation</h1>
+    <audio controls>
+        <source src="index page.mp3" type="audio/mp3">
+    </audio>
+
+    <h1 class="glow-text">Activity Video</h1>
+    <div class="card">
+    <video width="1300" height="800" controls>
+        <source src="activity.mp4" type="video/mp4">
+    </video>
+    </div>
+<h3>
+    <p>
+        Visit 
+        <a href="https://www.w3schools.com" target="_blank" style="color: yellow;">
+            W3Schools
+        </a> 
+        to learn more about HTML.
+    </p>
+    </h3>
+</div>
+
+<footer>
+    © 2026 My Personal Website
+</footer>
+
+</body>
+</html>
